@@ -1,0 +1,150 @@
+{
+  "created": "2026-09-14",
+  "service": "https://acemusic.ai",
+  "model": "ACE-Step V1.5 XL Turbo",
+  "lyrics": "[Instrumental]",
+  "negativeStyles": "vocals, speech, harsh distortion, abrasive noise, clipping",
+  "terms": {
+    "checked": "2026-09-14",
+    "lastUpdated": "2026-01-30",
+    "section": "5.1 Generated Music Ownership",
+    "summary": "ACE Music permits personal and commercial projects, music distribution, derivative works and monetization without additional licensing. Attribution is voluntary. No third-party reference audio or artist imitation was requested. The terms do not guarantee generated music uniqueness or absence of third-party rights.",
+    "location": "https://acemusic.ai (Terms of Service dialog)"
+  },
+  "production": "AAC originals preserved separately. Unity masters apply static gain to approximately -16 to -18 LUFS, keep true peaks at or below -1.5 dBTP, and add short click-prevention fades. Stereo 48 kHz PCM masters imported as background-loaded Vorbis streams at quality 0.8.",
+  "tracks": [
+    {
+      "title": "Saltlight",
+      "bytes": 2620286,
+      "model": "ACE-Step V1.5 XL Turbo",
+      "prompt": "Original instrumental coastal house, 118 BPM, warm and sunlit. Rounded four-on-the-floor kick, soft shuffling percussion, syncopated rubbery bass guitar, sparkling electric piano chords, airy plucked synth melody and clean muted guitar accents. Joyful freedom of an ocean road at golden hour. Memorable eight-bar melodic hook, gentle evolving layers, spacious stereo mix with a smooth restrained top end and clear warm bass. Full song structure: short melodic opening, groove, uplifting main theme, spacious breakdown, satisfying returning theme, clean gentle ending. Polished radio production, no vocals.",
+      "station": "Tideglass",
+      "duration": 160.0,
+      "sourceCodec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "inputLUFS": -14.54,
+      "gainDB": -1.46,
+      "estimatedLUFS": -16.0,
+      "truePeakDB": -1.76,
+      "originalSha256": "e591f0f9d7b81e080fb053a43212a24ed3df772e6464044f9809273761534c41",
+      "asset": "Assets/Sunward/Audio/Radio/01 Saltlight.wav",
+      "serviceTitle": "Ocean Road at Golden Hour",
+      "review": {
+        "method": "Local MiniCPM-o sample check; not a full-track human listening review",
+        "sample": "[40.00\u201355.00s] The music features electronic synthesizers, a steady drum beat, and a bass line, creating a modern, upbeat electronic dance mood. No singing or spoken voice is present. There are no obvious signs of clipping, buzzing, or abrupt digital glitches; the sound is relatively clean and consistent.\n\n[55.00\u201360.00s] The music features electronic synthesizers, a steady drum beat, and a recurring, simple bass line. The overall mood is upbeat and dance-oriented. No singing or spoken voice is present. There are no obvious signs of clipping, buzzing, or abrupt digital glitches; the sound is relatively clean."
+      }
+    },
+    {
+      "title": "Coastline Colour",
+      "bytes": 2636772,
+      "model": "ACE-Step V1.5 XL Turbo",
+      "prompt": "Original instrumental coastal house, 118 BPM, warm and sunlit. Rounded four-on-the-floor kick, soft shuffling percussion, syncopated rubbery bass guitar, sparkling electric piano chords, airy plucked synth melody and clean muted guitar accents. Joyful freedom of an ocean road at golden hour. Memorable eight-bar melodic hook, gentle evolving layers, spacious stereo mix with a smooth restrained top end and clear warm bass. Full song structure: short melodic opening, groove, uplifting main theme, spacious breakdown, satisfying returning theme, clean gentle ending. Polished radio production, no vocals.",
+      "station": "Tideglass",
+      "duration": 160.0,
+      "sourceCodec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "inputLUFS": -12.9,
+      "gainDB": -3.1,
+      "estimatedLUFS": -16.0,
+      "truePeakDB": -3.68,
+      "originalSha256": "c3a7547893188f4803152b27ddf8e563a192a801574d9e09cfe70110d2b1acd0",
+      "asset": "Assets/Sunward/Audio/Radio/02 Coastline Colour.wav",
+      "serviceTitle": "Ocean Road Golden Hour",
+      "review": {
+        "method": "Local MiniCPM-o sample check; not a full-track human listening review",
+        "sample": "[60.00\u201375.00s] The music features electronic synthesizers, gentle piano, and soft, sustained string pads. A subtle, rhythmic electronic beat provides a low-key foundation. The overall mood is calm and reflective, with a slightly melancholic or meditative quality. There is no singing or spoken voice. The audio is clean, with no obvious clipping, harsh buzzing, or abrupt digital glitches."
+      }
+    },
+    {
+      "title": "Nightbeat Pulse",
+      "bytes": 2962083,
+      "model": "ACE-Step V1.5 XL Turbo",
+      "prompt": "Original instrumental melodic breakbeat and progressive electronic driving music, 128 BPM. Tight syncopated break drums, rounded deep bass pulse, luminous analog synth arpeggios, wide lush minor-seventh chords, a memorable ascending lead motif, subtle metallic percussion. Exciting night road energy with emotional forward motion, confident and cinematic. Clean spacious stereo production, punchy controlled transients, smooth high frequencies, no harsh noise sweeps. Full arrangement with atmospheric eight-bar intro, rhythmic main theme, melodic bridge, powerful evolving final section and resolved outro. No vocals, no speech.",
+      "station": "Current",
+      "duration": 175.0,
+      "sourceCodec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "inputLUFS": -15.04,
+      "gainDB": -2.19,
+      "estimatedLUFS": -17.23,
+      "truePeakDB": -1.5,
+      "originalSha256": "ddd1ca735dba6a0ae527174492a0ac00bb0cb55875e7c55b6570385da8e440c4",
+      "asset": "Assets/Sunward/Audio/Radio/03 Nightbeat Pulse.wav",
+      "serviceTitle": "Nightbeat Pulse",
+      "review": {
+        "method": "Local MiniCPM-o sample check; not a full-track human listening review",
+        "sample": "[40.00\u201355.00s] The music features a steady electronic drum beat accompanied by a repetitive, arpeggiated synthesizer melody. A secondary, more complex synth line provides harmonic texture. The overall mood is energetic and dance-oriented, typical of electronic dance music. There is no singing or spoken voice. The audio is clean, with no obvious clipping, buzzing, or abrupt digital glitches.\n\n[55.00\u201360.00s] The music features a steady electronic drum beat accompanied by a repetitive, arpeggiated synthesizer melody. A secondary, more complex synth line with a slightly detuned or evolving timbre plays above the main rhythm. The overall mood is energetic and dance-oriented, typical of electronic dance music. There is no singing or spoken voice present. The audio is clean, with no obvious clipping, buzzing, or abrupt digital glitches."
+      }
+    },
+    {
+      "title": "Night Road Echo",
+      "bytes": 2982634,
+      "model": "ACE-Step V1.5 XL Turbo",
+      "prompt": "Original instrumental melodic breakbeat and progressive electronic driving music, 128 BPM. Tight syncopated break drums, rounded deep bass pulse, luminous analog synth arpeggios, wide lush minor-seventh chords, a memorable ascending lead motif, subtle metallic percussion. Exciting night road energy with emotional forward motion, confident and cinematic. Clean spacious stereo production, punchy controlled transients, smooth high frequencies, no harsh noise sweeps. Full arrangement with atmospheric eight-bar intro, rhythmic main theme, melodic bridge, powerful evolving final section and resolved outro. No vocals, no speech.",
+      "station": "Current",
+      "duration": 175.0,
+      "sourceCodec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "inputLUFS": -15.12,
+      "gainDB": -1.53,
+      "estimatedLUFS": -16.65,
+      "truePeakDB": -1.5,
+      "originalSha256": "56869561db948e385d7645b9630cef63333bee62a6cab6f4135746d7e3c2f48c",
+      "asset": "Assets/Sunward/Audio/Radio/04 Night Road Echo.wav",
+      "serviceTitle": "Night Road Echo",
+      "review": {
+        "method": "Local MiniCPM-o sample check; not a full-track human listening review",
+        "sample": "[60.00\u201375.00s] The music is an electronic dance track featuring a steady, driving electronic drum beat, accompanied by synthesized bass and melodic electronic textures. A sustained, evolving synth pad provides a background layer, while occasional rhythmic electronic accents punctuate the track. The overall mood is energetic and modern, typical of club or workout music. There is no singing or spoken voice. The audio is clean, with no obvious clipping, buzzing, or abrupt digital glitches."
+      }
+    },
+    {
+      "title": "Juniper Hours",
+      "bytes": 2773553,
+      "model": "ACE-Step V1.5 XL Turbo",
+      "prompt": "Original instrumental downtempo future soul and jazz, 94 BPM. Warm intimate electric piano playing rich suspended chords, gentle syncopated acoustic drums and rim clicks, melodic fretless bass, delicate nylon guitar picking, soft analog pads, occasional breathy flute phrases. Laid-back and quietly uplifting, peaceful scenic driving through pine hills and a seaside town at sunset. Organic human groove, spacious detailed stereo image, natural soft transients and smooth warm production without vinyl crackle or hiss. Distinct memorable melody, opening piano motif, full groove, reflective middle passage, melodic reprise and graceful resolved ending. No vocals, no speech.",
+      "station": "Stillwater",
+      "duration": 165.0,
+      "sourceCodec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "inputLUFS": -15.76,
+      "gainDB": -1.1,
+      "estimatedLUFS": -16.86,
+      "truePeakDB": -1.5,
+      "originalSha256": "25f376faddce829d181d61d874ef215d0df3d0c432fff28d2dee5c6144431099",
+      "asset": "Assets/Sunward/Audio/Radio/05 Juniper Hours.wav",
+      "serviceTitle": "Juniper Hours",
+      "review": {
+        "method": "Local MiniCPM-o sample check; not a full-track human listening review",
+        "sample": "[40.00\u201355.00s] The music features a steady electronic drum beat accompanied by a simple, repetitive bass line. A clean, sustained synthesizer sound plays a long, evolving note, creating a spacious and somewhat melancholic atmosphere. There is no singing or spoken voice. The audio is clear, with no noticeable clipping, buzzing, or abrupt digital glitches.\n\n[55.00\u201360.00s] The music features a steady electronic drum beat accompanied by a repetitive, slightly dissonant synthesizer melody. The overall mood is somewhat tense and minimalist, created by the repetitive rhythmic and melodic structure. There is no singing or spoken voice present. The audio is clear, with no obvious clipping, harsh buzzing, or abrupt digital glitches."
+      }
+    },
+    {
+      "title": "Soft Horizons",
+      "bytes": 2761082,
+      "model": "ACE-Step V1.5 XL Turbo",
+      "prompt": "Original instrumental downtempo future soul and jazz, 94 BPM. Warm intimate electric piano playing rich suspended chords, gentle syncopated acoustic drums and rim clicks, melodic fretless bass, delicate nylon guitar picking, soft analog pads, occasional breathy flute phrases. Laid-back and quietly uplifting, peaceful scenic driving through pine hills and a seaside town at sunset. Organic human groove, spacious detailed stereo image, natural soft transients and smooth warm production without vinyl crackle or hiss. Distinct memorable melody, opening piano motif, full groove, reflective middle passage, melodic reprise and graceful resolved ending. No vocals, no speech.",
+      "station": "Stillwater",
+      "duration": 165.0,
+      "sourceCodec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "inputLUFS": -17.35,
+      "gainDB": -0.42,
+      "estimatedLUFS": -17.77,
+      "truePeakDB": -1.5,
+      "originalSha256": "f1a689f01e9515e9778385ed50727c0a466cffba324384a98cd6b1bdb166928b",
+      "asset": "Assets/Sunward/Audio/Radio/06 Soft Horizons.wav",
+      "serviceTitle": "Soft Horizons",
+      "review": {
+        "method": "Local MiniCPM-o sample check; not a full-track human listening review",
+        "sample": "[60.00\u201375.00s] The music features a combination of electronic and acoustic instruments, including a prominent flute melody, a steady drum beat, and a groovy bass line. A clean, modern electronic sound is present, accompanied by subtle, shimmering background textures. The overall mood is upbeat, lighthearted, and danceable, suitable for background or casual listening. There is no singing or spoken voice. No obvious clipping, harsh buzzing, or abrupt glitches are audible."
+      }
+    }
+  ],
+  "publicationNote": "Original account-specific download URLs omitted. Track prompts, source hashes, generation service and processing details retained."
+}

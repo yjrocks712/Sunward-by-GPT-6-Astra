@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad09c5fbf7704deebde2b7375d9be77, type: 3}
+  m_Name: RadioLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::Sunward.RadioLibrary
+  stations:
+  - name: Tideglass
+    frequency: 88.4
+    tagline: Sunlit house / open coast
+    color: {r: 1, g: 0.81, b: 0.22, a: 1}
+    tracks:
+    - title: Saltlight
+      artist: Sunward Sessions
+      clip: {fileID: 8300000, guid: 226ed68424cc745d09eb2f156c4d5ae8, type: 3}
+    - title: Coastline Colour
+      artist: Sunward Sessions
+      clip: {fileID: 8300000, guid: 66c925b52c41f48b3a44d43d4d63c3a3, type: 3}
+  - name: Current
+    frequency: 102.6
+    tagline: After-dark beats / forward motion
+    color: {r: 0.51, g: 0.57, b: 1, a: 1}
+    tracks:
+    - title: Nightbeat Pulse
+      artist: Sunward Sessions
+      clip: {fileID: 8300000, guid: 5ed1622d6670c4fa1803d0e7ab964a18, type: 3}
+    - title: Night Road Echo
+      artist: Sunward Sessions
+      clip: {fileID: 8300000, guid: e90726148dd7d4bbb839071151891727, type: 3}
+  - name: Stillwater
+    frequency: 94.0
+    tagline: Future soul / the scenic route
+    color: {r: 0.27, g: 0.78, b: 0.73, a: 1}
+    tracks:
+    - title: Juniper Hours
+      artist: Sunward Sessions
+      clip: {fileID: 8300000, guid: 576724b59e5a942089566c6b0224fcae, type: 3}
+    - title: Soft Horizons
+      artist: Sunward Sessions
+      clip: {fileID: 8300000, guid: 06c8a975869114b918df6a5260571b77, type: 3}

@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "checks": [
+    "Three stations available",
+    "Streaming playback: Saltlight",
+    "Audible samples: Saltlight",
+    "Stereo stream: Saltlight",
+    "Two decks overlap during crossfade",
+    "Streaming playback: Coastline Colour",
+    "Audible samples: Coastline Colour",
+    "Stereo stream: Coastline Colour",
+    "Streaming playback: Nightbeat Pulse",
+    "Audible samples: Nightbeat Pulse",
+    "Stereo stream: Nightbeat Pulse",
+    "Two decks overlap during crossfade",
+    "Streaming playback: Night Road Echo",
+    "Audible samples: Night Road Echo",
+    "Stereo stream: Night Road Echo",
+    "Streaming playback: Juniper Hours",
+    "Audible samples: Juniper Hours",
+    "Stereo stream: Juniper Hours",
+    "Two decks overlap during crossfade",
+    "Streaming playback: Soft Horizons",
+    "Audible samples: Soft Horizons",
+    "Stereo stream: Soft Horizons",
+    "Automatic advance before track end",
+    "Radio volume zero silences both decks",
+    "Global mute silences music and effects",
+    "Volume settings persist",
+    "V switches radio off",
+    "V restores station",
+    "T switches station",
+    "N skips track",
+    "B closes radio settings",
+    "B opens radio settings",
+    "Radio slider controls music volume",
+    "Next-track button is wired",
+    "One interactive UI event system",
+    "Driving sounds fade out in menus",
+    "Exactly one audio listener"
+  ],
+  "errors": [],
+  "clips": [
+    {
+      "title": "Saltlight",
+      "station": "Tideglass",
+      "load": "Streaming",
+      "channels": 2,
+      "seconds": 160.0,
+      "rms": 0.10558930784463882
+    },
+    {
+      "title": "Coastline Colour",
+      "station": "Tideglass",
+      "load": "Streaming",
+      "channels": 2,
+      "seconds": 160.0,
+      "rms": 0.10232634097337723
+    },
+    {
+      "title": "Nightbeat Pulse",
+      "station": "Current",
+      "load": "Streaming",
+      "channels": 2,
+      "seconds": 175.01866149902344,
+      "rms": 0.057353127747774124
+    },
+    {
+      "title": "Night Road Echo",
+      "station": "Current",
+      "load": "Streaming",
+      "channels": 2,
+      "seconds": 175.01866149902344,
+      "rms": 0.05886085331439972
+    },
+    {
+      "title": "Juniper Hours",
+      "station": "Stillwater",
+      "load": "Streaming",
+      "channels": 2,
+      "seconds": 165.01333618164062,
+      "rms": 0.11862903088331223
+    },
+    {
+      "title": "Soft Horizons",
+      "station": "Stillwater",
+      "load": "Streaming",
+      "channels": 2,
+      "seconds": 165.01333618164062,
+      "rms": 0.11534817516803741
+    }
+  ],
+  "averageFps": 105.8260269165039,
+  "memoryBytes": 296828135,
+  "listeners": 1
+}

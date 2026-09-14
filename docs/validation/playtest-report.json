@@ -1,0 +1,151 @@
+{
+  "unity": "6000.6.0f1",
+  "races": {
+    "lantern": {
+      "State": 3,
+      "GateIndex": 9,
+      "GateCount": 9,
+      "RaceTime": 63.14551,
+      "ResultMedal": "GOLD",
+      "RacePlace": 4,
+      "ResultReward": 4100,
+      "PersonalBest": true,
+      "physical": {
+        "maxSpeed": 119.6415786743164,
+        "distance": 1755.533935546875,
+        "offRoadSeconds": 7.226716041564941,
+        "time": 63.145511627197266,
+        "maxRoadError": 21.62910270690918,
+        "routeProgress": 1733.7813720703125,
+        "airborneSeconds": 0.0,
+        "collisions": 7,
+        "flips": 0,
+        "poseJumps": 0,
+        "Running": false,
+        "StopReason": "Session reached race results",
+        "TargetKph": 115.0,
+        "Boost": false
+      }
+    },
+    "meridian": {
+      "State": 3,
+      "GateIndex": 17,
+      "GateCount": 17,
+      "RaceTime": 115.830391,
+      "ResultMedal": "GOLD",
+      "RacePlace": 3,
+      "ResultReward": 4350,
+      "physical": {
+        "maxSpeed": 141.6124725341797,
+        "distance": 3391.8525390625,
+        "offRoadSeconds": 1.0844358205795288,
+        "time": 115.83039093017578,
+        "maxRoadError": 8.09898853302002,
+        "routeProgress": 3364.636962890625,
+        "airborneSeconds": 0.0,
+        "collisions": 39,
+        "flips": 0,
+        "poseJumps": 0,
+        "Running": false,
+        "StopReason": "Session reached race results",
+        "TargetKph": 135.0,
+        "Boost": true
+      }
+    },
+    "coast": {
+      "State": 3,
+      "GateIndex": 25,
+      "GateCount": 25,
+      "RaceTime": 125.626686,
+      "ResultMedal": "GOLD",
+      "RacePlace": 1,
+      "ResultReward": 4850,
+      "physical": {
+        "maxSpeed": 167.59295654296875,
+        "distance": 5257.11279296875,
+        "offRoadSeconds": 6.079111099243164,
+        "time": 125.6266860961914,
+        "maxRoadError": 22.081336975097656,
+        "routeProgress": 5238.9150390625,
+        "airborneSeconds": 0.14015628397464752,
+        "collisions": 6,
+        "flips": 0,
+        "poseJumps": 0,
+        "Running": false,
+        "StopReason": "Session reached race results",
+        "TargetKph": 165.0,
+        "Boost": true
+      }
+    }
+  },
+  "controls": {
+    "passed": true,
+    "reset": true,
+    "camera": true,
+    "events": true,
+    "garage": true,
+    "map": true,
+    "accelerationKph": 254.7183380126953,
+    "boostUsed": 0.637000560760498,
+    "maxSlip": 0.27290600538253784,
+    "driftPoints": 8.893829345703125,
+    "reverseMps": -10.405055046081543
+  },
+  "garageTransaction": {
+    "denied": true,
+    "chosen": 3,
+    "purchased": true,
+    "selected": 3,
+    "credits": 9000,
+    "expected": 9000,
+    "paint": 2,
+    "tune": 1
+  },
+  "garageAfterRestart": {
+    "passed": true,
+    "car": "ORISON 12",
+    "selected": 3,
+    "credits": 9000,
+    "power": 39.96,
+    "best": 125.626686
+  },
+  "waterRecovery": {
+    "passed": true,
+    "position": [
+      -379.998322,
+      13.6213837,
+      -600.001
+    ],
+    "restoredCredits": 23323,
+    "selected": 0
+  },
+  "method": "Race audits used real Rigidbody driving controls with traffic and opponents. No pose or velocity overrides occurred during any lap. Control-key audit isolated traffic colliders; purchase test save data was restored afterward.",
+  "standalone": {
+    "passed": true,
+    "grounded": true,
+    "unity": "6000.6.0f1",
+    "car": "SEREIN 01",
+    "traffic": 60,
+    "landmarks": 6,
+    "frames": 180,
+    "roadKm": 10.335723876953125,
+    "averageFps": 112.54163360595703,
+    "memoryBytes": 294338915,
+    "errors": []
+  },
+  "build": {
+    "status": "completed",
+    "result": "Succeeded",
+    "platform": "StandaloneOSX",
+    "totalSizeBytes": 82263714,
+    "buildTimeMs": 4559,
+    "totalWarnings": 1,
+    "totalErrors": 0,
+    "errors": [],
+    "warnings": [
+      {
+        "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+      }
+    ]
+  }
+}

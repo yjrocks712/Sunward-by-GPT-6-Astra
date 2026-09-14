@@ -1,0 +1,13 @@
+{
+    "passed": true,
+    "grounded": true,
+    "unity": "6000.6.0f1",
+    "car": "ORISON 12",
+    "traffic": 60,
+    "landmarks": 6,
+    "frames": 180,
+    "roadKm": 10.335723876953125,
+    "averageFps": 100.37112426757813,
+    "memoryBytes": 300171619,
+    "errors": []
+}

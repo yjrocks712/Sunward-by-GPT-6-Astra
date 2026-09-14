@@ -1,0 +1,13 @@
+{
+  "result": "Succeeded",
+  "platform": "StandaloneOSX",
+  "totalSizeBytes": 113558064,
+  "buildTimeMs": 12049,
+  "totalWarnings": 1,
+  "totalErrors": 0,
+  "warnings": [
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    }
+  ]
+}
