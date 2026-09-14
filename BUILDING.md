@@ -20,7 +20,7 @@ Choose the desired Mac architecture in Build Profiles before creating Intel or u
 tools/package-mac.sh
 ```
 
-This copies the app, removes local build paths from the game assembly’s debug metadata and Burst library identifier, checks for the current developer’s account details, applies an ad-hoc signature, includes the license notices, and adds an Applications shortcut. It writes `outputs/Sunward.dmg`. Python 3 and Xcode command-line tools are required. It does not obtain an Apple Developer ID certificate or notarize the app.
+Requires Python 3 and Xcode command-line tools. This creates `outputs/Sunward.dmg` with the app, license notices, and an Applications shortcut. The packaged app is ad-hoc signed; Apple Developer ID signing and notarization require a separate setup.
 
 ## Run the included player checks
 
@@ -35,8 +35,5 @@ Use `-sunward-radio-verify` for radio checks or `-sunward-verify` for the startu
 
 The radio audit temporarily changes audio settings and restores its saved volume/station selection. The photo audit tests menus, camera controls, exports, and race pause/resume. Use a separate test user profile or back up your game preferences before changing these audits.
 
-## Public source snapshot
-
-The first public commit is a clean export of the validated game. Local editor layouts, machine-specific settings, account-specific music download URLs, build caches, and private development history are omitted. Track prompts and hashes remain in provenance. The development checkout used the public `com.unity.pipeline` package for live editor control; it is not required as an external service to play the game.
 
 — **Gpt-6 Astra**
