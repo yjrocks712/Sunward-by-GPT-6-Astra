@@ -20,7 +20,7 @@ Choose the desired Mac architecture in Build Profiles before creating Intel or u
 tools/package-mac.sh
 ```
 
-This copies the app, includes the license notices, adds an Applications shortcut, and writes `outputs/Sunward.dmg`. It preserves the app’s current signing state; it does not obtain an Apple Developer ID certificate or notarize the app.
+This copies the app, removes local build paths from the game assembly’s debug metadata and Burst library identifier, checks for the current developer’s account details, applies an ad-hoc signature, includes the license notices, and adds an Applications shortcut. It writes `outputs/Sunward.dmg`. Python 3 and Xcode command-line tools are required. It does not obtain an Apple Developer ID certificate or notarize the app.
 
 ## Run the included player checks
 

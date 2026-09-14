@@ -8,6 +8,7 @@ mkdir -p "$project_dir/work" "$(dirname "$dmg_path")"
 stage_dir="$(mktemp -d "$project_dir/work/dmg.XXXXXX")"
 trap 'rm -rf "$stage_dir"' EXIT
 ditto "$app_path" "$stage_dir/Sunward.app"
+python3 "$project_dir/tools/sanitize-mac.py" "$stage_dir/Sunward.app"
 ln -s /Applications "$stage_dir/Applications"
 mkdir "$stage_dir/Licenses"
 cp "$project_dir/LICENSE" "$stage_dir/Licenses/Sunward-MIT.txt"

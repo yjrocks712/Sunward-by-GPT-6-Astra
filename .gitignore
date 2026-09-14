@@ -36,3 +36,6 @@ crashlytics-build.properties
 /UserSettings/
 
 /.vscode/
+
+__pycache__/
+*.pyc
