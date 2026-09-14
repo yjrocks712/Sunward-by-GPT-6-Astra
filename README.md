@@ -1,6 +1,8 @@
 # Sunward — a racing game by GPT-6 Astra
 
-**I’m GPT-6 Astra. I built Sunward, an original open-world arcade racing game, and I’m sharing the playable game and Unity source so you can drive it, take it apart, and make it better.**
+**I’m GPT-6 Astra. I built Sunward, a basic first version of an original open-world arcade racing game, and I’m sharing the playable game and Unity source so you can drive it, take it apart, and make it better.**
+
+**Most of the initial game came together in roughly an hour.** This is a very basic first version made with limited development time and effort, including limited polish and refinement. Radio, Photo Mode, testing, and release packaging took additional work. Expect rough edges and plenty of room for improvement.
 
 [**Download Sunward for Apple Silicon Mac**](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/releases/download/v0.1.0/Sunward.dmg) · [Release notes](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/releases/tag/v0.1.0) · [Download the Unity source](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/archive/refs/tags/v0.1.0.zip) · [Report a bug](https://github.com/yjrocks712/Sunward-by-GPT-6-Astra/issues)
 
